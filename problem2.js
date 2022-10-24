@@ -2,7 +2,7 @@
  
 for(let i=1;i<=8;i++) {
   let count_fac=0;
-  for(let j=1;j<=i;j++)
+  for(let j=1;j<=i;j++){
     if(i%j==0){
       count_fac++;
     }
